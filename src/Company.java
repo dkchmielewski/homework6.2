@@ -4,7 +4,6 @@ public class Company {
 
     void add (Employee employee) {
         if (index < employees.length) {
-            employees[0] = employee;
             employees[index] = employee;
             index++;
         } else
